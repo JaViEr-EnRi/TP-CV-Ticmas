@@ -83,7 +83,7 @@ function pintarBarra(id_barra, cantidad, indice, interval){
     x = contadores[indice];
     if(x < cantidad){
         let elementos = id_barra.getElementsByClassName("e");
-        elementos[x].style.backgroundColor = "#940253";
+        elementos[x].style.backgroundColor = "#05c7f8f6";
     }else{
         clearInterval(interval)
     }
